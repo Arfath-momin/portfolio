@@ -115,7 +115,7 @@ const blogs = [
             >
            
               <Image
-                src="/images/misc/arfathmominportrait.jpg"
+                src="/images/misc/arfathmominportrait.JPG"
                 alt="Arfath Momin"
                 width={500}
                 height={1000}
