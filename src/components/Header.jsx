@@ -47,7 +47,7 @@ export default function Header() {
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.3 }}
         >
-          <ul className="flex flex-wrap justify-center gap-6 md:gap-8 text-base md:text-lg font-medium">
+          <ul className="flex flex-wrap justify-center gap-4 sm:gap-6 md:gap-8 text-sm sm:text-base md:text-lg font-medium">
             {navItems.map((item, index) => (
               <motion.li 
                 key={item.href}
