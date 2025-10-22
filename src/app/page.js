@@ -114,12 +114,11 @@ const blogs = [
               transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
             >
            
-              <Image
-                src="/images/misc/arfathmominportrait.JPG"
+                 <Image
+                src="/images/misc/arfath-momin-portrait-3.jpg"
                 alt="Arfath Momin"
                 width={500}
                 height={1000}
-                unoptimized
                 className="w-full h-auto rounded-lg object-cover mx-auto"
                 priority
                 sizes="(min-width:1024px) 40vw, 80vw"
@@ -262,10 +261,10 @@ const blogs = [
       </section>
 
       {/* Marquee Section */}
-      <section className="text-white no-top py-8 overflow-hidden">
+      <section className="text-white no-top py-8 overflow-hidden w-full">
         {/* responsive marquee: duplicate content for smooth looping and scale text across breakpoints */}
         <motion.div
-          className="flex items-center whitespace-nowrap"
+          className="flex items-center whitespace-nowrap will-change-transform"
           initial={{ x: 0 }}
           animate={{ x: '-50%' }}
           transition={{
@@ -275,18 +274,18 @@ const blogs = [
           }}
         >
           {/* two copies to create a seamless loop */}
-          <div className="flex gap-8 items-center mr-12">
-            <span className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-8xl font-bold">WORDPRESS DEVELOPMENT</span>
-            <span className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-8xl font-bold">FULLSTACK WEB DEVELOPMENT</span>
-            <span className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-8xl font-bold">E-COMMERCE WEBSITE</span>
-            <span className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-8xl font-bold">UI/UX DESIGN</span>
+          <div className="flex gap-6 sm:gap-8 items-center mr-8 sm:mr-12">
+            <span className="text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-7xl font-bold">WORDPRESS DEVELOPMENT</span>
+            <span className="text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-7xl font-bold">FULLSTACK WEB DEVELOPMENT</span>
+            <span className="text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-7xl font-bold">E-COMMERCE WEBSITE</span>
+            <span className="text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-7xl font-bold">UI/UX DESIGN</span>
           </div>
 
-          <div className="flex gap-8 items-center">
-            <span className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-8xl font-bold">WORDPRESS DEVELOPMENT</span>
-            <span className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-8xl font-bold">FULLSTACK WEB DEVELOPMENT</span>
-            <span className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-8xl font-bold">E-COMMERCE WEBSITE</span>
-            <span className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-8xl font-bold">UI/UX DESIGN</span>
+          <div className="flex gap-6 sm:gap-8 items-center">
+            <span className="text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-7xl font-bold">WORDPRESS DEVELOPMENT</span>
+            <span className="text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-7xl font-bold">FULLSTACK WEB DEVELOPMENT</span>
+            <span className="text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-7xl font-bold">E-COMMERCE WEBSITE</span>
+            <span className="text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-7xl font-bold">UI/UX DESIGN</span>
           </div>
         </motion.div>
       </section>
