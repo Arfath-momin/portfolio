@@ -120,7 +120,7 @@ const blogs = [
                 width={500}
                 height={1000}
                 unoptimized
-                className="w-full h-auto rounded-lg object-cover mx-auto max-w-[360px]"
+                className="w-full h-auto rounded-lg object-cover mx-auto"
                 priority
                 sizes="(min-width:1024px) 40vw, 80vw"
                 
