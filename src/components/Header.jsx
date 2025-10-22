@@ -28,11 +28,11 @@ export default function Header() {
   const currentTitle = pageTitles[pathname] || 'ARFATH MOMIN';
 
   return (
-    <section className="no-top">
+    <section className="no-top pb-4 md:pb-8">
       <div className="text-fit-wrapper">
         <motion.h1 
           key={pathname}
-          className="text-fit text-[120px] md:text-[180px] lg:text-[220px] font-extrabold tracking-tighter"
+          className="text-fit text-[120px] md:text-[180px] lg:text-[220px] font-extrabold tracking-tighter mb-4 md:mb-6"
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
