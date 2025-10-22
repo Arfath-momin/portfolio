@@ -1,0 +1,154 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+  --primary-color: #ffffff;
+  --body-font: "Plus Jakarta Sans", Helvetica, Arial, sans-serif;
+  --title-font: "Plus Jakarta Sans", Helvetica, Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--body-font);
+  overflow-x: hidden;
+}
+
+/* Dark scheme */
+.dark-scheme {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Section spacing */
+.no-top {
+  padding-top: 0 !important;
+}
+
+.no-bottom {
+  padding-bottom: 0 !important;
+}
+
+section {
+  padding: 80px 0;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 60px 0;
+  }
+}
+
+
+.text-condensed {
+  font-family: "Plus Jakarta Sans", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  word-spacing: 0.05em;
+  text-transform: uppercase;
+}
+/* Text fit */
+.text-fit-wrapper {
+  text-align: center;
+  /* padding: 20px 0; */
+}
+
+.text-fit {
+  font-size: clamp(80px, 15vw, 250px);
+  line-height: 1;
+  margin-bottom: 30px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+/* Menu */
+.d-menu-1 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.d-menu-1 li.active a {
+  color: #ffffff;
+}
+
+/* Subtitle */
+.subtitle {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  
+}
+
+/* Hover effects */
+.hover-scale-1-2:hover {
+  transform: scale(1.2);
+}
+
+/* Shuffle text effect */
+.shuffle {
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* Tag styles */
+.d-tag-s2 {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+}
+
+/* Additional utility classes */
+.relative {
+  position: relative;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.z-index-1 {
+  z-index: 1;
+}
+
+.hover-op-0:hover {
+  opacity: 0;
+}
+
+/* Smooth scrolling */
+
+
