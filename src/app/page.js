@@ -114,12 +114,13 @@ const blogs = [
               transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
             >
            
-                 <Image
+              <Image
                 src="/images/misc/arfathmominportrait.jpg"
                 alt="Arfath Momin"
                 width={500}
                 height={1000}
-                className="w-full h-auto rounded-lg object-cover mx-auto"
+                unoptimized
+                className="w-full h-auto rounded-lg object-cover mx-auto max-w-[360px]"
                 priority
                 sizes="(min-width:1024px) 40vw, 80vw"
                 
