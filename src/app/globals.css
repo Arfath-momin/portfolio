@@ -60,7 +60,9 @@ body {
 .no-top {
   padding-top: 0 !important;
 }
-
+.header-bottom{
+  padding-bottom:20px !important;
+}
 .no-bottom {
   padding-bottom: 0 !important;
 }

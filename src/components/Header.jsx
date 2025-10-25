@@ -28,7 +28,7 @@ export default function Header() {
   const currentTitle = pageTitles[pathname] || 'ARFATH MOMIN';
 
   return (
-    <section className="no-top pb-4 md:pb-8">
+    <section className="no-top header-bottom pb-4 md:pb-8">
       <div className="text-fit-wrapper">
         <motion.h1 
           key={pathname}
